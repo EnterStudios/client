@@ -2151,6 +2151,8 @@ export type DeviceDeviceHistoryListRpcParam = ?$ReadOnly<{incomingCallMap?: Inco
 
 export type DeviceDeviceListRpcParam = ?$ReadOnly<{incomingCallMap?: IncomingCallMapType, waitingHandler?: WaitingHandlerType}>
 
+export type DeviceEkMetadata = $ReadOnly<{kid: KID, generation: Int, hashMeta: HashMeta}>
+
 export type DeviceID = String
 
 export type DeviceType =
